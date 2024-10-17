@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.logo{
+    float: left;
+    margin-right: 5px;
+}
+.container{
+    background-image: url(galaxy/galaxy.jpg);
+    width: 22%;
+    position: relative;
+    left: 10px;
+    margin-right: 20px;
+    float: left;
+    
+    
+}
+.containerNumber{
+    background-color: lightgray;
+    text-align: center;
+    color: black;
+    position: relative;
+    left: 0.2px;
+    bottom: 20px;
+}
+.containerHeading{
+    background-color: lightgray;
+    color: black;
+    position: relative;
+    left: 0.2px;
+    text-align: center;
+}
+.boosts{
+    border: solid 3px black;
+    width: 66%;
+    float: left;
+    margin-right: 30px;
+    padding: 10px;
+}
+.cursor{
+    width: 40px;
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    bottom: 75px;
+
+}
+.bank{
+    width: 50px;
+    float:left;
+    margin-left: 10px;
+}
+.grandma{
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+}
+.cursorButton{
+    width: 77%;
+    background-color: lightgray;
+    color: black;
+    margin: 5px;
+    border: solid 3px black;
+    border-radius: 20px;
+    height: 80px;
+}
+.cursorButton:hover{
+    background-color: burlywood;
+    color: black;
+}
+.cursorButton2:hover{
+    background-color: burlywood;
+    color: black;
+}
+.cursorButton3:hover{
+    background-color: burlywood;
+    color: black;
+}
+.cursorButton4:hover{
+    background-color: burlywood;
+    color: black;
+}
+.cursorButton2{
+    width: 77%;
+    background-color: lightgray;
+    color: black;
+    border: solid 3px black;
+    margin: 5px;
+    border-radius: 20px;
+    height: 80px;
+}
+.cursorButton3{
+    width: 77%;
+    background-color: lightgray;
+    color: black;
+    margin: 5px;
+    border: solid 3px black;
+    border-radius: 20px;
+    height: 80px;
+}
+.cursorButton4{
+    width: 77%;
+    background-color: lightgray;
+    color: black;
+    margin: 5px;
+    border: solid 3px black;
+    border-radius: 20px;
+    height: 80px;
+}
+.cookie{
+    position: relative;
+    left: 60px;
+    transition-duration: 500ms;
+}
+.cookie:hover{
+    transition-duration: 350ms;
+ scale: 1.2;
+}
+

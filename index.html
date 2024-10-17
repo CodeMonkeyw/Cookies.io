@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <header>
+      <img src="cookie/cookie.jpg" width="70" class="logo" />
+      <h2>Cookie Cliker</h2>
+    </header>
+
+    <br />
+    <div class="container">
+      <div>
+        <h3 class="containerHeading">amount of cookies:</h3>
+        <h4 class="containerNumber" id="zero">0</h4>
+
+        <img
+          src="cookie/cookie.jpg"
+          width="200px"
+          class="cookie"
+          onclick="cookies()"
+        />
+      </div>
+    </div>
+    <div class="boosts">
+      <button class="cursorButton" onclick="cursorButton()">
+        <h3>5 cookies</h3>
+        <h3>cursor</h3>
+        <img src="icons/cursor.jpg" class="cursor" />
+      </button>
+      <button class="cursorButton2">
+        <h3>20 cookies</h3>
+        <h3>grandma</h3>
+        <img src="icons/grandma.jpg" class="cursor" />
+      </button>
+      <button class="cursorButton3">
+        <h3>45 cookies</h3>
+        <h3>bank</h3>
+        <img src="icons/bank.jpg" class="cursor" />
+      </button>
+      <button class="cursorButton4">
+        <h3>100 cookies</h3>
+        <h3>Factory</h3>
+        <img src="icons/factory.jpg" class="cursor" />
+      </button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
