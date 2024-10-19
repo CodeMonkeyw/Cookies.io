@@ -1,31 +1,31 @@
-let cookie = 0 
-function cookies(){
-    cookie++
-    document.getElementById('zero').innerHTML = cookie;
-    document.querySelector(".cookie").style.cookie.scale = "-1.2";
-    
+let score = 0;
+let upgrades = 0;
+let upgradeCost = 10;
+const scoreDisplay = document.getElementById('zero');
+
+const ClickButton = document.getElementById('upgrades');
+const upgradesDisplay = document.getElementById('clickButton');
+const upgradeButton = document.getElementById('upgradeButton');
+
+
+ClickButton.addEventListener('click',() =>{
+score += pointsPerClick;
+updateDisplay();
+
+});
+
+upgradeButton.addEventListener('click',()=>{
+ if(score >= upgradeCost){
+    score -= upgradeCost;
+    upgrades += 1;
+    pointsPerClick += 1
+    upgradeCost = Math.floor(upgradeCost *1.5)
+    upgradesDisplay();
+    upgradeButton.innerText = `Upgrade (Cost: ${upgradeCost})`;
+ }
+});
+
+function updateDisplay(){
+    scoreDisplay.innerText = `Score: ${score};`
+    upgradesDisplay.innerText = ` Upgrades ${upgrades}`
 }
-function cursorButton(){
-    
-        if(cookie === 5){
-            document.querySelector('#zero').innerHTML = cookie - 5;
-            for( i = 0; i > 3232222; i++){
-                document.querySelector('#zero').innerHTML = cookie * 2
-                }
-        }
-        if(cookie > 5){
-            document.querySelector('#zero').innerHTML = cookie - 5;
-            for( i = 0; i > 3232222; i++){
-            document.querySelector('#zero').innerHTML = cookie * 2
-            }
-        }
-      
-        if(cookie < 5){
-        alert('insufficent purchase')
-        }
-    
-
-}
-
-
-

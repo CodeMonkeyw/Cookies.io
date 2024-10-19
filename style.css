@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
 }
 header{
     color: white;
@@ -18,6 +19,7 @@ header{
     left: 10px;
     margin-right: 20px;
     float: left;
+    background-color: white;
     
     
 }
